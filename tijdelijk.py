@@ -1,4 +1,4 @@
-#Bestand tijdelijk.py aangemaakt.
+from helper import decoreer
 
 def print_aanbieding(): 
     global prijzen
@@ -17,7 +17,7 @@ def print_aanbieding():
             print(el.upper())
         else:
             print(el.lower())
-
+decoreer("Aanbieding")
 print_aanbieding()
 
 
